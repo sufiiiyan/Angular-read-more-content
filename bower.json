@@ -1,0 +1,33 @@
+{
+    "name": "Angular-read-more",
+    "main": "Angular-read-more.js",
+    "version": "0.0.0",
+    "homepage": "https://github.com/sufiiiyan/Angular-read-more",
+    "authors": [
+    "Sufiyan Momin <sufiyan.telsource@gmail.com>"
+  ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sufiiiyan/Angular-read-more"
+    },
+    "description": "Counting character in input box with warning and danger count",
+    "keywords": [
+    "Angular",
+    "read",
+    "more",
+    "less",
+    "angular",
+    "js",
+    "HTML",
+    "text"
+  ],
+    "license": "MIT",
+    "ignore": [
+    "gh-pages",
+    "node_modules",
+    "bower_components"
+  ],
+    "dependencies": {
+    "readmore-js": "2.1.0"
+  }
+}
