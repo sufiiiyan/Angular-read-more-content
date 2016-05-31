@@ -12,13 +12,19 @@ angular.module('angular-read-more', []).directive('readMore', ['$timeout', '$com
 
         link: function (scope, element, attr) {
             
+         $(document).ready(function(){
+                
+            
+            
              var readMoreOption = scope.$eval(attr.readMoreOptions);
             
-            $(element).append(attr.readMore);
+            
             
             $timeout(function(){
+                $(element).append(attr.readMore);
                 $(element).readmore(readMoreOption);
-            });
+            },1000);
+                })
 
         }
     };
