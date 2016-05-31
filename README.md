@@ -1,4 +1,4 @@
-# Angular read more
+# Collapsing and expanding long blocks of text/html content with "Read more"
 Angular-read-more  [Demo](http://sufiiiyan.github.io/Angular-read-more/ ) 
 Works with HTML content
 ---------------------------------------------------
