@@ -12,6 +12,16 @@ Works with HTML content
 
     var app=angular.module("you app name",['angular-read-more'])
     
+#### **In controller**
+```
+$scope.options = {
+        speed: 500,
+        collapsedHeight:100,
+        moreLink: '<a href="#">Read more</a>',
+        lessLink: '<a href="#">Read Less</a>'
+    };
+```
+    
 ####  **Using directive**
 
     <div read-more="{{descriptionHTML}}" read-more-options="options"></div>
