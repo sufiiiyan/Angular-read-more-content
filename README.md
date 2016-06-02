@@ -1,6 +1,6 @@
 # Collapsing and expanding long blocks of text/html content with "Read more"
 Angular-read-more  [Demo](http://sufiiiyan.github.io/Angular-read-more/ ) 
-Works with HTML content
+ :sparkles: Add read more to text and HTML content too  :+1:  :+1:
 ---------------------------------------------------
 
 #### **Add in your file**
@@ -20,6 +20,11 @@ $scope.options = {
         moreLink: '<a href="#">Read more</a>',
         lessLink: '<a href="#">Read Less</a>'
     };
+    
+    e.g.
+    $scope.descriptionTEXT = "What is Lorem Ipsum?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    
+    $scope.descriptionHTML = "<span style="font-weight: bold;"><h><span style="text-decoration: underline;"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span></span><ul><li><span>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></li></ul><h><span> when an unknown printer took a galley of type and scrambled it to make a type specimen book</span><ul><li><span>It has survived not only five centuries, but also the leap into electronic</span></li></ul></h></h></span>"
 ```
     
 ####  **Using directive**
@@ -32,14 +37,13 @@ $scope.options = {
 
 -------------------------------------------------------------------------------------------------------------------------------
 
+### Copyright
+
+Copyright (c) 2015-2016 (Sufiyan Momin)
 
 ## License
 
  Use this guide. Attributions are appreciated.
-
-### Copyright
-
-Copyright (c) 2015-2016 (Sufiyan Momin)
 
 ### (The MIT License)
 Permission is hereby granted, free of charge, to any person obtaining
