@@ -36,7 +36,7 @@ $scope.options = {
     <p read-more="{{descriptionTEXT}}" read-more-options="options"></p>
 
 -------------------------------------------------------------------------------------------------------------------------------
-based on readmorejs [more documentation at](https://github.com/jedfoster/Readmore.js) 
+based on readmorejs [more documentation](https://github.com/jedfoster/Readmore.js) 
 ### Copyright
 
 Copyright (c) 2015-2016 (Sufiyan Momin)
